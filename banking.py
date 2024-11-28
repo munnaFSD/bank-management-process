@@ -68,8 +68,9 @@ class DataFromUser:
             if account[1] == acc_no:
                 print(f"\nYour current balance: {account[3]} TK")
         
-        print("\nError << Account does not exist.")
-        return
+            else:
+                print("\nError << Account does not exist.")
+                return
 
 
 class Banking:
